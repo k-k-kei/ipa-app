@@ -42,7 +42,7 @@ import { getBeerData } from "../../composable/getBeerData";
 
 export default {
   setup() {
-    const months = ["01月", "02月", "03月", "04月", "05月", "06月", "07月", "08月", "09月", "10月", "11月", "12月"];
+    const months = ["All", "01月", "02月", "03月", "04月", "05月", "06月", "07月", "08月", "09月", "10月", "11月", "12月"];
     const selectedMonth = ref<String>("");
     const beers = ref<Array<String>>([]);
 
@@ -69,7 +69,7 @@ export default {
     //array = 全てのIPAデータ
     //セレクトボックスが選択されていない場合は全件表示する
     const sortItems = (array: any) => {
-      if(selectedMonth.value === ""){
+      if(selectedMonth.value === "" || selectedMonth.value === "All"){
         return array;
       } else {
         return array.filter((el: any) => el.first_brewed.split("").slice(0,2).join("") == selectedMonth.value.split("").slice(0,2).join("")).map((data: any) => data)
