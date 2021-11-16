@@ -1,11 +1,26 @@
-# Vue 3 + Typescript + Vite
+# IPA図鑑
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+クラフトビールが好きなのでまとめてみました。<br>
+基本的にビールを飲む口実に使ってください。
 
-## Recommended IDE Setup
+<br>
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+![スクリーンショット 2021-11-16 12 21 58](https://user-images.githubusercontent.com/42371057/141890086-417db2bc-78f1-4ee6-9503-74231b5c8bb9.png)
 
-## Type Support For `.vue` Imports in TS
+## 概要
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+スコットランド発「BrewDog」のIPA図鑑です。<br>
+ビールの初醸造月と照らし合わせて誕生日が同じIPAを探すことができます。<br>
+
+「今月のIPAで乾杯しよう！」<br>
+「今月誕生日だから同じ月のIPAで飲もう！」<br>
+「月ごとのIPA飲み比べしよう！」
+
+<br>
+
+など様々な場面で同僚や友人をさりげなく飲みに誘うことができます。
+
+<br>
+
+## URL
+https://determined-kilby-c64b63.netlify.app/
